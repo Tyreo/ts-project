@@ -1,0 +1,28 @@
+.canvas-tetris-router {
+  background-color: #808080;
+  min-height: 100vh;
+}
+
+.canvas-tetris-container {
+  background-color: #deb887;
+  height: 900px;
+  width: 750px;
+}
+
+.canvas-tetris-between {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+
+  button {
+    background-color: #ff69b4;
+    margin: 16px;
+  }
+}
+
+.canvas-tetris-center {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}

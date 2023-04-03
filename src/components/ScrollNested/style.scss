@@ -1,0 +1,15 @@
+.scroll-nested-component {
+  &.scroll-x {
+    max-width: 100%; /* 固定宽度 */
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+  }
+
+  &.scroll-y {
+    max-height: 100%; /* 固定高度 */
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+  }
+}

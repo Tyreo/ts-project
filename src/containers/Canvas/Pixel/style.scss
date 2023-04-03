@@ -1,0 +1,25 @@
+.canvas-pixel-router {
+  align-items: center;
+  background-color: #0ff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+  
+.canvas-pixel-container {
+  background-color: #000;
+  height: 686px;
+  width: 686px;
+}
+  
+.canvas-pixel-color-div {
+  height: 100px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.canvas-pixel-big-look {
+  height: 400px;
+  width: 400px;
+}

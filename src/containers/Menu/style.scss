@@ -1,0 +1,22 @@
+.menu-router {
+  background-color: #deb887;
+  font-size: 32px;
+  height: 100%;
+  padding: 32px;
+
+  .menu-inner-title {
+    font-weight: bold;
+    padding-top: 32px;
+  }
+
+  .menu-inner-items {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    margin-left: 32px;
+
+    .menu-inner-item {
+      margin-top: 8px;
+    }
+  }
+}
